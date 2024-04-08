@@ -1,0 +1,97 @@
+:root {
+  --primary-color: #b80084;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #989898;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  background-color: #00000084;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  color: var(--primary-color);
+}
+
+.btn {
+  color: #fff;
+  background: var(--primary-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px 22px;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.currency {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  padding: 6px 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.currency input {
+  border: 0;
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+}
+
+.swap-rate-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate {
+  color: var(--primary-color);
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+@media (max-width: 600px) {
+  .currency input {
+    width: 200px;
+  }
+}
