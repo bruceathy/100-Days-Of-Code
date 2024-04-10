@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6b3838;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+}
+
+canvas {
+  border: none;
+  background-color: #d2d2d2;
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.toolbox {
+  background-color: #6b3838;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.toolbox input,
+.toolbox button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  margin: 0.7rem;
+}
+
+.toolbox button {
+  background-color: #d2d2d2;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  font-weight: 900;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  body {
+    flex-direction: column;
+  }
+  canvas {
+    height: 500px;
+  }
+
+  .toolbox {
+    flex-direction: row;
+  }
+}
