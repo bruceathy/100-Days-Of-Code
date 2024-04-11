@@ -1,9 +1,6 @@
 # Web Projects With Vanilla JavaScript
 
-This is the main repository for multiple projects I made from courses during my 100 days of code challenge. I found the projects from the couses below.
-
-- [20 Vanilla Javascript Projects](https://www.traversymedia.com/20-Vanilla-JavaScript-Projects)
-- [50 Projects In 50 Days](https://www.traversymedia.com/50-Projects-In-50-Days)
+This is the main repository for multiple projects I made from courses during my 100 days of code challenge (outside of courses). I found the projects [here](https://www.traversymedia.com/20-Vanilla-JavaScript-Projects) and [here.](https://www.traversymedia.com/50-Projects-In-50-Days)
 
 |  #  |                                            Project                                            |                                         Live Demo                                         |
 | :-: | :-------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
