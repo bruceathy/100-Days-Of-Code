@@ -1,8 +1,3 @@
-require("dotenv").config();
-// USE THIS PROJECT TO LEARN HOW TO SETUP DOTENV
-const myVariable = process.env.S3_BUCKET;
-console.log(myVariable);
-
 const wordEl = document.getElementById("word");
 const wrongLettersEl = document.getElementById("wrong-letters");
 const playAgainBtn = document.getElementById("play-button");
